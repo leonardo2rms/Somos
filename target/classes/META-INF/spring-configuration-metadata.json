@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.somos.config.ApplicationProperties",
+      "name": "application",
+      "type": "org.somos.config.ApplicationProperties"
+    }
+  ],
+  "properties": []
+}

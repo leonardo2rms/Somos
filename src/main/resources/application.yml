@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+
+
+security:
+  authentication:
+    jwt:
+      secret: my-secret-token-to-change-in-production
+      # Token is valid 24 hours
+      token-validity-in-seconds: 864000
+      token-validity-in-seconds-for-remember-me: 25920000
